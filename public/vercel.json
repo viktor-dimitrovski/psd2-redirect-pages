@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/ok", "destination": "/ok.html" },
-    { "source": "/not-ok", "destination": "/not-ok.html" }
-  ]
-}

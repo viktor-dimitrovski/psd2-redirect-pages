@@ -1,8 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head><title>Not OK Redirect</title></head>
-  <body style="text-align:center; padding:30px;">
-    <h1 style="color:red;">❌ Authentication Failed or Cancelled</h1>
-    <p>The request was not approved.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SCA Failed or Cancelled</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background-color: #fef6f6;
+      color: #c62828;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.1);
+      max-width: 480px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .status-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="status-icon">❌</div>
+    <h1>Authentication Failed</h1>
+    <p>The user did not approve the action or an error occurred.</p>
+    <p>Please try again from your TPP application.</p>
+  </div>
+</body>
 </html>

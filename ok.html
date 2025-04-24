@@ -1,8 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head><title>OK Redirect</title></head>
-  <body style="text-align:center; padding:30px;">
-    <h1 style="color:green;">✅ SCA Authentication Successful</h1>
-    <p>You can return to your TPP application.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SCA Completed Successfully</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background-color: #f5fdf7;
+      color: #2e7d32;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 128, 0, 0.1);
+      max-width: 480px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .status-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="status-icon">✅</div>
+    <h1>Authentication Successful</h1>
+    <p>Thank you. You have successfully authorized the transaction.</p>
+    <p>You may now return to your TPP application.</p>
+  </div>
+</body>
 </html>
